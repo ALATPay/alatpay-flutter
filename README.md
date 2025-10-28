@@ -1,17 +1,22 @@
-# alat_pay
+# AlatPay SDK
 
-A new Flutter project.
+A Flutter SDK for integrating AlatPay payment services into your Flutter applications.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- Initialize payments easily
+- Handle payment verification
+- Retrieve bank lists and resolve accounts
+- Simple and developer-friendly API
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# alatpay_sdk
+## 🧩 Installation
+
+Add this to your project's `pubspec.yaml`:
+
+```yaml
+dependencies:
+  alatpay_sdk: ^1.0.0
