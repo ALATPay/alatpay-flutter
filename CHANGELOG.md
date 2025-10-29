@@ -16,8 +16,14 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - Example Flutter app for integration testing
 - Full documentation (README, LICENSE, CHANGELOG)
 
-## [1.0.1+2] - 2025-10-28
+## [1.0.1+2] - 2025-10-29
 
 ### 📝 Updated
 
 - Fixed README formatting and documentation details.
+
+## [1.0.2+3] - 2025-10-29
+
+### 🖼 Fixed
+
+- README screenshots now visible on pub.dev.

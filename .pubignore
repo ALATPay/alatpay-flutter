@@ -35,6 +35,8 @@ assets/debug/
 # Keep only small assets required by SDK
 !assets/banks/banks.json
 !assets/images/alat-pay.png
+!assets/screenshots/*.png
+!assets/screenshots/*.jpg
 
 # Misc
 .DS_Store
