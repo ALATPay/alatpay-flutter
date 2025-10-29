@@ -19,6 +19,7 @@ class AlatPaySdk {
     required PaymentRequest request,
     required String secretKey,
     AlatPayTheme? theme,
+    String? branding,
     required Function(PaymentResult?) onPaymentComplete,
     required Function(String) onPaymentError,
   }) async {
@@ -39,6 +40,7 @@ class AlatPaySdk {
             secretKey: secretKey,
             onPaymentComplete: onPaymentComplete,
             onPaymentError: onPaymentError,
+            branding: branding,
           ),
         ),
       );

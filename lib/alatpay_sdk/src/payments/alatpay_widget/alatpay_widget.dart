@@ -11,6 +11,7 @@ class AlatPayWidget extends StatefulWidget {
   final AlatPayTheme? alatPayTheme;
   final Function(PaymentResult? result) onPaymentComplete;
   final Function(String error) onPaymentError;
+  final String? branding;
 
   const AlatPayWidget({
     super.key,
@@ -20,6 +21,7 @@ class AlatPayWidget extends StatefulWidget {
     this.alatPayTheme,
     required this.onPaymentComplete,
     required this.onPaymentError,
+    this.branding,
   });
 
   @override
@@ -100,7 +102,9 @@ class _AlatPayWidgetState extends State<AlatPayWidget> {
                 page = PaymentHomePage(request: widget.request, onPop: _onPop);
                 break;
               case '/bank-transfer':
-                page = BankTransferPage();
+                page = BankTransferPage(
+                  branding: widget.branding,
+                );
                 break;
               case '/ussd-confirmation':
                 page = UssdConfirmationPage();

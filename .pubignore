@@ -1,0 +1,40 @@
+# Exclude build artifacts and IDE folders
+build/
+.dart_tool/
+.packages
+pubspec.lock
+.idea/
+.vscode/
+
+# Exclude example build outputs
+example/build/
+example/.dart_tool/
+example/pubspec.lock
+
+# Exclude native platform build folders
+android/
+ios/
+macos/
+windows/
+linux/
+
+# Exclude heavy or temporary assets
+assets/raw/
+assets/temp/
+assets/debug/
+
+# Exclude screenshots, large images, docs
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.mov
+*.zip
+
+# Keep only small assets required by SDK
+!assets/banks/banks.json
+!assets/images/alat-pay.png
+
+# Misc
+.DS_Store

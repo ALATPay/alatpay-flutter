@@ -1,7 +1,9 @@
 import 'pages.dart';
 
 class BankTransferPage extends StatefulWidget {
-  const BankTransferPage({super.key});
+  const BankTransferPage({super.key, this.branding});
+
+  final String? branding;
 
   @override
   State<BankTransferPage> createState() => _BankTransferPageState();
@@ -173,8 +175,8 @@ class _BankTransferPageState extends State<BankTransferPage> {
             height: 70,
             width: 70,
             child: Image.asset(
-              'assets/images/alat-pay.png',
-              package: "alatpay_sdk",
+              widget.branding ?? 'assets/images/alat-pay.png',
+              package: widget.branding == null ? "alatpay_sdk" : null,
             ),
           ),
           const SizedBox(height: 10),

@@ -40,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
       lastName: "Doe",
     );
     final request = PaymentRequest(
-      businessId: "631a3808-02a6-4d08-5e85-08dd9cdc577f",
+      businessId: "************************",
       amount: 100,
       currency: "NGN",
       customer: demoCustomer,
@@ -48,12 +48,12 @@ class _MyHomePageState extends State<MyHomePage> {
     AlatPaySdk.startPayment(
       context,
       request: request,
-      secretKey: "c9ab87f3bcbb44faae8bccf944a0302a",
+      secretKey: "************************",
       onPaymentComplete: (result) {
         Navigator.pop(context);
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            backgroundColor: Colors.red,
+            backgroundColor: Colors.green,
             content: Text("Successful payment ${result?.message}"),
           ),
         );
