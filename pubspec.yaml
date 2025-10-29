@@ -1,6 +1,6 @@
 name: alatpay_sdk
 description: A Flutter SDK for Alat Pay integration.
-version: 1.0.0+1
+version: 1.0.1+2
 
 homepage: https://github.com/GreatGodson/alatpay_sdk
 repository: https://github.com/GreatGodson/alatpay_sdk

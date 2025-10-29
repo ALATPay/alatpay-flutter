@@ -1,4 +1,4 @@
-Flutter Animate
+AlatPay SDK
 ================================================================================
 
 A performant SDK for integrating AlatPay payment services into your Flutter applications.

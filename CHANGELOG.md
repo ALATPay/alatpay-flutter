@@ -15,3 +15,9 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - Asset support for logos and bank icons
 - Example Flutter app for integration testing
 - Full documentation (README, LICENSE, CHANGELOG)
+
+## [1.0.1+2] - 2025-10-28
+
+### 📝 Updated
+
+- Fixed README formatting and documentation details.
