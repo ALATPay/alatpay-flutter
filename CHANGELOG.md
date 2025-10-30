@@ -27,3 +27,9 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### 🖼 Fixed
 
 - README screenshots now visible on pub.dev.
+
+## [1.0.3] - 2025-10-30
+
+### 🖼 Updated
+
+- Update repository link
