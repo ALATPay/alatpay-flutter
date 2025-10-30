@@ -47,12 +47,18 @@ app.*.map.json
 build/
 
 # Example app builds
+#example/build/
+#example/.dart_tool/
+#example/ios/Pods/
+#example/macos/
+#example/linux/
+#example/windows/
+#example/web/
+#example/android/.gradle/
+#example/android/app/build/
+
 example/build/
 example/.dart_tool/
 example/ios/Pods/
-example/macos/
-example/linux/
-example/windows/
-example/web/
 example/android/.gradle/
 example/android/app/build/
