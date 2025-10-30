@@ -33,3 +33,4 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### 🖼 Updated
 
 - Update repository link
+- Update description in pubspec.yaml

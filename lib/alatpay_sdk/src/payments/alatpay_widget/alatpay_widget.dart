@@ -31,7 +31,7 @@ class AlatPayWidget extends StatefulWidget {
 class _AlatPayWidgetState extends State<AlatPayWidget> {
   bool _isInitialized = false;
 
-  _onPop() {
+  void _onPop() {
     Navigator.of(widget.parentContext).pop();
   }
 

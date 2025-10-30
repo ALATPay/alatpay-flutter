@@ -21,7 +21,7 @@ class PaymentRequest {
     this.bankCode,
   });
 
-  copyWith({
+  PaymentRequest copyWith({
     String? businessId,
     double? amount,
     String? currency,
