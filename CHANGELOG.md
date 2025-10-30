@@ -34,3 +34,9 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 - Update repository link
 - Update description in pubspec.yaml
+
+## [1.0.4] - 2025-10-30
+
+### 🖼 Updated
+
+- Update description in pubspec.yaml

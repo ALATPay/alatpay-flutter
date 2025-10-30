@@ -40,3 +40,10 @@ assets/debug/
 
 # Misc
 .DS_Store
+
+
+example/android/
+example/ios/
+example/macos/
+example/windows/
+example/linux/

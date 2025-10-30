@@ -1,10 +1,7 @@
 name: alatpay_sdk
-description: >
-  A Flutter SDK for seamless integration with Alat Pay, enabling secure, fast, and reliable in-app payments.
-  It provides an easy payment initialization, confirmation, transaction tracking, and UI Customization,
-  allowing developers to accept payments effortlessly within their Flutter apps.
+description: A Flutter SDK for seamless Alat Pay integration, enabling secure, fast, and reliable in-app payments with simple APIs for payment initialization, confirmation, and tracking.
 
-version: 1.0.3
+version: 1.0.4
 
 homepage: https://github.com/ALATPay/alatpay-flutter
 repository: https://github.com/ALATPay/alatpay-flutter
